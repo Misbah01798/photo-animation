@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Shape</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="box">
+        <div style="--v: 1;"><img src="images/mis1.jpg" alt=""></div>
+        <div style="--v: 2;"><img src="images/mis2.jpg" alt=""></div>
+        <div style="--v: 3;"><img src="images/mis3.jpg" alt=""></div>
+        <div style="--v: 4;"><img src="images/mis4.jpg" alt=""></div>
+        <div style="--v: 5;"><img src="images/mis5.JPG" alt=""></div>
+        <div style="--v: 6;"><img src="images/mis6.JPG" alt=""></div>
+        <div style="--v: 7;"><img src="images/mis7.jpg" alt=""></div>
+        <div style="--v: 8;"><img src="images/mis8.jpg" alt=""></div>
+    </div>
+    <Script>
+        $(document).ready(function(){
+            $('.box div').click(function(){
+                if($(this).hasClass('spin')){
+                    $('.box div').removeClass('spin');
+                }else{
+                    $('.box div').removeClass('spin');
+                    $(this).addClass('spin');
+                }
+            });
+        });
+    </Script>
+</body>
+
+
+</html>
