@@ -8,16 +8,67 @@
     <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="box">
-        <div style="--v: 1;"><img src="images/mis1.jpg" alt=""></div>
-        <div style="--v: 2;"><img src="images/mis2.jpg" alt=""></div>
-        <div style="--v: 3;"><img src="images/mis3.jpg" alt=""></div>
-        <div style="--v: 4;"><img src="images/mis4.jpg" alt=""></div>
-        <div style="--v: 5;"><img src="images/mis5.JPG" alt=""></div>
-        <div style="--v: 6;"><img src="images/mis6.JPG" alt=""></div>
-        <div style="--v: 7;"><img src="images/mis7.jpg" alt=""></div>
-        <div style="--v: 8;"><img src="images/mis8.jpg" alt=""></div>
+    <nav>
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="">
+                        <span class="icon">
+                            <ion-icon name="home"></ion-icon>
+                        </span>
+                        <span class="text">Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="icon">
+                            <ion-icon name="person"></ion-icon>
+                        </span>
+                        <span class="text">Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="icon">
+                            <ion-icon name="mail-open"></ion-icon>
+                        </span>
+                        <span class="text">Messages</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="icon">
+                            <ion-icon name="camera"></ion-icon>
+                        </span>
+                        <span class="text">Photos</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="icon">
+                            <ion-icon name="settings"></ion-icon>
+                        </span>
+                        <span class="text">Settings</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="ani">
+        <div class="box">
+            <div style="--v: 1;"><img src="images/mis1.jpg" alt=""></div>
+            <div style="--v: 2;"><img src="images/mis2.jpg" alt=""></div>
+            <div style="--v: 3;"><img src="images/mis3.jpg" alt=""></div>
+            <div style="--v: 4;"><img src="images/mis4.jpg" alt=""></div>
+            <div style="--v: 5;"><img src="images/mis5.JPG" alt=""></div>
+            <div style="--v: 6;"><img src="images/mis6.JPG" alt=""></div>
+            <div style="--v: 7;"><img src="images/mis7.jpg" alt=""></div>
+            <div style="--v: 8;"><img src="images/mis8.jpg" alt=""></div>
+        </div>
     </div>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+    
     <Script>
         $(document).ready(function(){
             $('.box div').click(function(){
